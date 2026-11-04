@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Book Appointment | CareBridge Hospital</title><link rel="stylesheet" href="style.css"></head><body data-page="appointment.html"><div id="hdr"></div><main>
+<h1>Book an appointment</h1><div id="ok"></div>
+<form id="bf"><label>Full name<input id="nm" required autocomplete="name"></label><label>Phone number<input id="ph" type="tel" required pattern="[0-9]{10}" title="10-digit mobile number"></label>
+<div class="grid2"><label>Department<select id="dept"></select></label><label>Doctor<select id="doc"></select></label></div>
+<label>Date<input id="date" type="date" required></label><div><b>Time slot</b><div class="chips" id="sl"></div></div>
+<label>Reason for visit<textarea id="why" rows="3"></textarea></label><div id="err" class="warn" role="alert"></div><button class="btn" type="submit">Confirm appointment</button></form>
+</main><div id="ftr"></div><script src="app.js"></script></body></html>
